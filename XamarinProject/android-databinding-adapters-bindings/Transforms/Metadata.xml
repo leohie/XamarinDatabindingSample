@@ -1,0 +1,14 @@
+﻿<metadata>
+    <remove-node path="/api/package[
+        contains(@name, 'android.databinding')
+    ]/class[
+        @name != 'TextViewBindingAdapter'
+    ]"/>
+
+    <remove-node path="/api/package[
+        contains(@name, 'android.databinding')
+    ]/interface[
+        @name != 'Observable'
+    ]"/>
+
+</metadata>

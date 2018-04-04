@@ -1,0 +1,49 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingBindingsDemoApp", "BindingBindingsDemoApp\BindingBindingsDemoApp.csproj", "{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "android-databinding-bindings", "android-databinding-bindings\android-databinding-bindings.csproj", "{469824A6-0738-42CC-BE35-DB6F58848429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "android-databinding-adapters-bindings", "android-databinding-adapters-bindings\android-databinding-adapters-bindings.csproj", "{E4539AB8-D810-431D-AB93-F44861AFDC5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example-module-bindings", "example-module-bindings\example-module-bindings.csproj", "{10D6053A-0F66-4898-93E6-4A2869853A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-binding-component", "data-binding-component\data-binding-component.csproj", "{3EA6DF46-0941-4409-9894-E9E94B819CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D82F74-3B1D-41AD-97F1-6AE0DB5BA0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469824A6-0738-42CC-BE35-DB6F58848429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469824A6-0738-42CC-BE35-DB6F58848429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469824A6-0738-42CC-BE35-DB6F58848429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469824A6-0738-42CC-BE35-DB6F58848429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4539AB8-D810-431D-AB93-F44861AFDC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4539AB8-D810-431D-AB93-F44861AFDC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4539AB8-D810-431D-AB93-F44861AFDC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4539AB8-D810-431D-AB93-F44861AFDC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D6053A-0F66-4898-93E6-4A2869853A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D6053A-0F66-4898-93E6-4A2869853A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D6053A-0F66-4898-93E6-4A2869853A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D6053A-0F66-4898-93E6-4A2869853A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA6DF46-0941-4409-9894-E9E94B819CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA6DF46-0941-4409-9894-E9E94B819CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA6DF46-0941-4409-9894-E9E94B819CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA6DF46-0941-4409-9894-E9E94B819CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6AE7816-F34E-4BA0-9561-DB0DF1F4E992}
+	EndGlobalSection
+EndGlobal

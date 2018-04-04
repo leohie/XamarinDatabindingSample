@@ -1,0 +1,19 @@
+﻿<metadata>
+    <remove-node path="/api/package[
+        contains(@name, 'android.databinding')
+    ]/class[
+        @name != 'BaseObservable'
+        and @name != 'DataBindingUtil'
+        and @name != 'ViewDataBinding'
+        and @name != 'ViewDataBinding.IncludedLayouts'
+        and @name != 'OnRebindCallback'
+        and @name != 'Observable.OnPropertyChangedCallback'
+    ]"/>
+
+    <remove-node path="/api/package[
+        contains(@name, 'android.databinding')
+    ]/interface[
+        @name != 'Observable'
+    ]"/>
+    
+</metadata>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LibraryWithBinding</string>
+    <string name="title_activity_binding_sample">BindingSampleActivity</string>
+</resources>

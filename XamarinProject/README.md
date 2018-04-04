@@ -1,14 +1,13 @@
 # Xamarin Android project
-
 This Xamarin solution attempts to include the Activity created in the native android project. The solution consists of the following projects:
 
 * *android-databinding-adapters-binding* - An Android Bindings Library project that includes the [native android databinding adapters .AAR](https://github.com/sourcegraph/android-sdk-jars/tree/master/extras/android/m2repository/com/android/databinding/adapters/1.3.1)
-* *android-databinding-bindings* - An Android Bindings Library project that includse the [native android databindings .AAR](https://github.com/sourcegraph/android-sdk-jars/tree/master/extras/android/m2repository/com/android/databinding/library/1.3.1)
+* *android-databinding-bindings* - An Android Bindings Library project that includes the [native android databindings .AAR](https://github.com/sourcegraph/android-sdk-jars/tree/master/extras/android/m2repository/com/android/databinding/library/1.3.1)
 * *BindingBindingsDemoApp* - A Xamarin Android project that defines a single Activity. This project is dependent on the 4 bindings projects.
 * *data-binding-component* - An Android Bindings Library project that includes a jar containing a single empty interface called `android.databinding.DataBindingComponent`. The Xamarin project would not compile without this interface, and it does not seem to be included in the databindings libraries from google. 
 * *example-module-bindings* - An Android Bindings Library project that includes the .AAR file created by packaging the native android project in this repository.
 
-The Activity `MainActivity.cs` contains a single button that navigates to the Activiy from the native .AAR library `Databinding.Android.Librarywithbinding.BindingSampleActivity`. The app crashes when this activity is shown with the following error:
+The Activity `MainActivity.cs` contains a single button that navigates to the Activity from the native .AAR library `Databinding.Android.Librarywithbinding.BindingSampleActivity`. The app crashes when this activity is shown with the following error:
 
 ```
 Java.Lang.NoClassDefFoundError: Failed resolution of: Landroid/databinding/DataBinderMapper; ---> Java.Lang.ClassNotFoundException: Didn't find class "android.databinding.DataBinderMapper" on path: DexPathList[[zip file "/data/app/com.bla.BindingBindingsDemoApp-sakjPKVSuqV2WAoU4Fr71Q==/base.apk"],nativeLibraryDirectories=[/data/app/com.bla.BindingBindingsDemoApp-sakjPKVSuqV2WAoU4Fr71Q==/lib/x86, /system/fake-libs, /data/app/com.bla.BindingBindingsDemoApp-sakjPKVSuqV2WAoU4Fr71Q==/base.apk!/lib/x86, /system/lib, /vendor/lib]]

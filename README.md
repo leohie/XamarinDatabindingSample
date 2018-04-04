@@ -10,10 +10,22 @@ This repository contains two projects:
 * XamarinProject - A Xamarin Android project that includes the native android library in a bindings project. This application is similar to the native application, where a main activity is defined with a button that links to the native library's activity. The app crashes with a runtime failure when the native activity is loaded.
 
 ## Built using
-The native Android application was built using [Android Studio](https://developer.android.com/studio/index.html)
-The Xamarin Android application was built using [Visual Studio for Mac](https://www.visualstudio.com/vs/mac/) and [Xamarin](https://www.xamarin.com/) 
+* The native Android application was built using [Android Studio](https://developer.android.com/studio/index.html)
+* The Xamarin Android application was built using [Visual Studio for Mac](https://www.visualstudio.com/vs/mac/) and [Xamarin](https://www.xamarin.com/) 
 
 ### Screenshots
+
+Native application
+* Native Android main activity
+![MainActivity](https://github.com/l-h-l/XamarinDatabindingSample/blob/master/Screenshots/NativeAndroidMainActivity.png?raw=true)
+* Databinding activity defined in module
+![DataBindingActivity](https://github.com/l-h-l/XamarinDatabindingSample/blob/master/Screenshots/NativeAndroidDatabindingActivity.png?raw=true)
+
+Xamarin Android application
+* Xamarin Android main activity
+![XamarinActivity](https://github.com/l-h-l/XamarinDatabindingSample/blob/master/Screenshots/XamarinAndroidMainActivity.png?raw=true)
+* Application crash
+![Error](https://github.com/l-h-l/XamarinDatabindingSample/blob/master/Screenshots/XamarinException.png?raw=true)
 
 ### Authors
 

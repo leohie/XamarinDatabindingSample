@@ -1,5 +1,4 @@
 # Native Android project
-
 This sample application contains a single Activity (`MainActivity.java`), with a button that navigates to a second Activity `BindingSampleActivity`. `BindingSampleActivity` is defined in a separate android module, and makes use of android databinding.
 
 ### Building the .AAR

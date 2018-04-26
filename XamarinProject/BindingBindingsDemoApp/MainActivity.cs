@@ -19,11 +19,15 @@ namespace BindingBindingsDemoApp
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
 
-            button.Click += delegate {
-                var intent = new Intent(this, typeof(Databinding.Android.Librarywithbinding.BindingSampleActivity));
-                StartActivity(intent);
-            };
+            button.Click += Button_Click;
         }
+
+        void Button_Click(object sender, System.EventArgs e)
+        {
+            var intent = new Intent(this, typeof(Databinding.Android.Librarywithbinding.BindingSampleActivity));
+            StartActivity(intent);
+        }
+
     }
 }
 
